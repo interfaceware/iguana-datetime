@@ -6,7 +6,7 @@
 -- It's useful for reporting to be able to translate dates into the financial
 -- year.  This module is a simple example of doing this.
 
-local calendar_financial=require 'calendar_financial'
+local calendar_financial=require 'date.financial'
 
 function main()
    -- Let's say our financial year is February - then we start_month=2

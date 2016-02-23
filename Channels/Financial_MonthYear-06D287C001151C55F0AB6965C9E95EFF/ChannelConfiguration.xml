@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Financial_MonthYear-From-JUpsrk2zD7R5od"
-      commit_id="f0e8e7f8346d6068f0416c9cbbd1285899eac3e1"
-      commit_comment="Removed encrypted password."
+      commit_id="2e1fa4bff94f4a4656a0051af851c2765fc200f0"
+      commit_comment="Shifting to use the date namespace."
       poll_time="10000">
    </from_mapper>
    <message_filter

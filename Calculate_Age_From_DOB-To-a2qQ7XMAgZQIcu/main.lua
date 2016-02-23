@@ -2,10 +2,10 @@
 -- This module calculates age from date of birth - it returns years, months and partial years.
 -- http://help.interfaceware.com/code/details/age-lua
 
-local age = require 'age'
+local age = require 'date.age'
 
 function main(Data)   
-   local Msg = hl7.parse{vmd ='example\\demo.vmd', data=Data}
+   local Msg = hl7.parse{vmd ='demo.vmd', data=Data}
 
 	-- getAge() requires date as a string parameter
    AgeYr, AgeMth, AgeDec = age.getAge('19980210')
