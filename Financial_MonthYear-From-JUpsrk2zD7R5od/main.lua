@@ -8,8 +8,6 @@
 
 local calendar_financial=require 'calendar_financial'
 
-require 'encrypt.password'
-
 function main()
    -- Let's say our financial year is February - then we start_month=2
    -- See the results for the months of the year.

@@ -1,11 +1,10 @@
 {
     "LocalDependencies": [],
     "LuaDependencies": [
-        "calendar_financial",
-        "encrypt.password"
+        "calendar_financial"
     ],
     "OtherDependencies": [],
-    "timestamp": "1455204453",
+    "timestamp": "1456238524",
     "version_info": {
         "build": 0,
         "major": 6,

@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Financial_MonthYear-From-JUpsrk2zD7R5od"
-      commit_id="b373d64cf734ccb5056673bf01cdf4c4628a69c0"
-      commit_comment="Import Translators: Date time channels."
+      commit_id="f0e8e7f8346d6068f0416c9cbbd1285899eac3e1"
+      commit_comment="Removed encrypted password."
       poll_time="10000">
    </from_mapper>
    <message_filter
