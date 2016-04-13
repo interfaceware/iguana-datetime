@@ -1,6 +1,6 @@
 -- This example shows the use of the age module
 -- This module calculates age from date of birth - it returns years, months and partial years.
--- http://help.interfaceware.com/code/details/age-lua
+-- http://help.interfaceware.com/v6/age-example-channel
 
 local age = require 'date.age'
 
