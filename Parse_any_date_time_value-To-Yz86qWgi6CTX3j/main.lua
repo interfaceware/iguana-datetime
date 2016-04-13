@@ -1,6 +1,6 @@
 dateparse = require 'date.parse'
 -- dateparse automatically translates a wide variety of date/time formats
--- http://help.interfaceware.com/kb/298/6
+-- http://help.interfaceware.com/v6/dateparse
 
 function main(Data)
    local Msg = hl7.parse{data=Data, vmd='demo.vmd'}
