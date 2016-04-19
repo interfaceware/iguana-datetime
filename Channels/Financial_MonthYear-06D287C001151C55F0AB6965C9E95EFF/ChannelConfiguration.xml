@@ -1,7 +1,7 @@
 <channel
    name="Financial Month/Year"
    guid="06D287C001151C55F0AB6965C9E95EFF"
-   description="Shows a module that can calculate the financial year, quarter and month from the calendar date.&#xD;&#xA;&#xD;&#xA;Most companies have a financial year which is slightly different from the calendar year.  So for financial reporting this kind of calculation is very useful."
+   description="Shows a module that can calculate the financial year, quarter and month from the calendar date.&#xD;&#xA;&#xD;&#xA;Most companies have a financial year which is slightly different from the calendar year.  So for financial reporting this kind of calculation is very useful.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/financial-monthyear&#xD;&#xA;"
    start_automatically="true"
    logging_level="1"
    use_message_filter="false">
@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Financial_MonthYear-From-JUpsrk2zD7R5od"
-      commit_id="2e1fa4bff94f4a4656a0051af851c2765fc200f0"
-      commit_comment="Shifting to use the date namespace."
+      commit_id="60367dbd4495ccb86747419cc1ae4b4ebc79cb77"
+      commit_comment="Got rid of error and global symbols."
       poll_time="10000">
    </from_mapper>
    <message_filter

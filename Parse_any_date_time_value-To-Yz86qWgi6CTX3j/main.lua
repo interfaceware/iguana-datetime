@@ -1,4 +1,4 @@
-dateparse = require 'date.parse'
+local dateparse = require 'date.parse'
 -- dateparse automatically translates a wide variety of date/time formats
 -- http://help.interfaceware.com/v6/dateparse
 
