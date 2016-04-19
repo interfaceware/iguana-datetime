@@ -1,6 +1,8 @@
-local dateparse = require 'date.parse'
+-- This module calculates age from date of birth - it returns years, months and partial years.
+-- http://help.interfaceware.com/v6/age-example-channel
 
-local age = {}
+-- Note that this dependency will modify the node and string namespaces
+local dateparse = require 'date.parse'
  
 local function isLeapYr(Year)
    if math.fmod(Year/400,1) == 0 then
@@ -84,7 +86,7 @@ local function calcMths(DOB)
    return ageMths
 end
   
-function age.getAge(DOB)   
+local function getAge(DOB)   
    -- calculate years
    local ageYrs, ageDec = calcYrs(DOB)
    -- calculate months
@@ -101,8 +103,12 @@ local HELP_DEF=[[{
    "SummaryLine": "Calculate age from date of birth",
    "SeeAlso": [
       {
+         "Title": "Wiki: Calculate Age From DOB",
+         "Link": "http://help.interfaceware.com/v6/age-example-channel"
+      },
+      {
          "Title": "Module for calculating date of birth.",
-         "Link": "http://help.interfaceware.com/code/details/age-lua"
+         "Link": "https://github.com/interfaceware/iguana-datetime/blob/master/shared/date/age.lua"
       }
    ],
    "Title": "age.getAge",
@@ -120,6 +126,6 @@ local HELP_DEF=[[{
    "ParameterTable": false
 }]]
 
-help.set{input_function=age.getAge, help_data=json.parse{data=HELP_DEF}}    
+help.set{input_function=getAge, help_data=json.parse{data=HELP_DEF}}    
  
-return age
+return getAge

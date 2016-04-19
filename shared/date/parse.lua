@@ -3,7 +3,10 @@
 -- iNTERFACEWARE permits you to use, modify, and distribute this file in accordance
 -- with the terms of the iNTERFACEWARE license agreement accompanying the software
 -- in which it is used.
--- http://help.interfaceware.com/code/details/dateparse-lua
+
+-- dateparse automatically translates a wide variety of date/time formats
+-- http://help.interfaceware.com/v6/dateparse
+
  
 local wdays = { 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
                 'Saturday', 'Sunday' }
@@ -412,7 +415,11 @@ end
    SeeAlso={
       {
          Title="dateparse.lua - parsing dates",
-         Link="http://help.interfaceware.com/code/details/dateparse-lua"
+         Link="https://github.com/interfaceware/iguana-datetime/blob/master/shared/date/parse.lua"
+      },
+      {
+         Title="Parse any date time value",
+         Link="http://help.interfaceware.com/v6/dateparse"
       },
       {
          Title="Date/time conversion: Using the fuzzy date/time parser (Iguana 5 documenation)",
@@ -484,7 +491,11 @@ end
    SeeAlso={
       {
          Title="dateparse.lua - parsing dates",
-         Link="http://help.interfaceware.com/code/details/dateparse-lua"
+         Link="https://github.com/interfaceware/iguana-datetime/blob/master/shared/date/parse.lua"
+      },
+      {
+         Title="Parse any date time value",
+         Link="http://help.interfaceware.com/v6/dateparse"
       },
       {
          Title="Date/time conversion: Using the fuzzy date/time parser (Iguana 5 documenation)",
@@ -556,7 +567,11 @@ end
    SeeAlso={
       {
          Title="dateparse.lua - parsing dates",
-         Link="http://help.interfaceware.com/code/details/dateparse-lua"
+         Link="https://github.com/interfaceware/iguana-datetime/blob/master/shared/date/parse.lua"
+      },
+      {
+         Title="Parse any date time value",
+         Link="http://help.interfaceware.com/v6/dateparse"
       },
       {
          Title="Date/time conversion: Using the fuzzy date/time parser (Iguana 5 documenation)",
@@ -616,7 +631,11 @@ local node_TS = {
    SeeAlso={
       {
          Title="dateparse.lua - parsing dates",
-         Link="http://help.interfaceware.com/code/details/dateparse-lua"
+         Link="https://github.com/interfaceware/iguana-datetime/blob/master/shared/date/parse.lua"
+      },
+      {
+         Title="Parse any date time value",
+         Link="http://help.interfaceware.com/v6/dateparse"
       },
       {
          Title="Date/time conversion: Using the fuzzy date/time parser (Iguana 5 documenation)",
