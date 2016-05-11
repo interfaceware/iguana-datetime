@@ -18,10 +18,11 @@ function main()
    -- use pcall() to capture errors due to invalid input dates
    if pcall(date.parse,Date) then
 
-         -- Calculate a day of year.
+      -- Convert the supplied date to the table format 
+      -- required for date.julian functions
       local _, T = date.parse(Date)
 
-      -- Calculate a day of year in current Julian year.
+      -- Calculate a day of year in current Julian year
       local J = julian.julianDayOfCurrentYear(T)   
 
       -- Julian Day Of a Year rounded up in 3 digits

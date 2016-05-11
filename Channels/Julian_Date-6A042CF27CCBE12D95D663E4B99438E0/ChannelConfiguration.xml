@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Julian_Date-From-XPFomTRhyvoyeH"
-      commit_id="9bae422111182f58260247fceb5902109b839406"
-      commit_comment="Import Translators: Julian date"
+      commit_id="44badd5e4bd78be7f799031e25e65d00ed4d67ab"
+      commit_comment="Import Translators: dsdf"
       poll_time="10000">
    </from_mapper>
    <message_filter
