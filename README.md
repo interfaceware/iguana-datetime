@@ -1,4 +1,4 @@
-<h1>Iguana Datetime</h1>
+<h1>Iguana Date/Time</h1>
 
 This repository contains examples of processing dates and times with Iguana.  
 
